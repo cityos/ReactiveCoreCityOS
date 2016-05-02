@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B34182771CD792A500F35BFA /* ReactiveCoreCityOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B34182751CD792A500F35BFA /* ReactiveCoreCityOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B341827A1CD7941700F35BFA /* LiveDataTypeSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34182791CD7941700F35BFA /* LiveDataTypeSignal.swift */; };
+		B341827D1CD7943700F35BFA /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B341827B1CD7943700F35BFA /* ReactiveCocoa.framework */; };
+		B341827E1CD7943700F35BFA /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B341827C1CD7943700F35BFA /* Result.framework */; };
+		B34182801CD7946D00F35BFA /* CoreCityOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B341827F1CD7946D00F35BFA /* CoreCityOS.framework */; };
+		B34182881CD797CC00F35BFA /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34182871CD797CC00F35BFA /* Tests.swift */; };
+		B341828A1CD797CC00F35BFA /* ReactiveCoreCityOSiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34182681CD7925400F35BFA /* ReactiveCoreCityOSiOS.framework */; };
+		B34182A61CD7990300F35BFA /* ReactiveCoreCityOSOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34182951CD7982C00F35BFA /* ReactiveCoreCityOSOSX.framework */; };
+		B34182AC1CD7991700F35BFA /* LiveDataTypeSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34182791CD7941700F35BFA /* LiveDataTypeSignal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B341828B1CD797CC00F35BFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B341825F1CD7925400F35BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B34182671CD7925400F35BFA;
+			remoteInfo = "ReactiveCoreCity iOS";
+		};
+		B34182A71CD7990300F35BFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B341825F1CD7925400F35BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B34182941CD7982C00F35BFA;
+			remoteInfo = "ReactiveCoreCityOS OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B34182681CD7925400F35BFA /* ReactiveCoreCityOSiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveCoreCityOSiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34182741CD792A500F35BFA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B34182751CD792A500F35BFA /* ReactiveCoreCityOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCoreCityOS.h; sourceTree = "<group>"; };
+		B34182791CD7941700F35BFA /* LiveDataTypeSignal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveDataTypeSignal.swift; sourceTree = "<group>"; };
+		B341827B1CD7943700F35BFA /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		B341827C1CD7943700F35BFA /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/iOS/Result.framework; sourceTree = "<group>"; };
+		B341827F1CD7946D00F35BFA /* CoreCityOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreCityOS.framework; path = "CoreCityOS/build/Debug-iphoneos/CoreCityOS.framework"; sourceTree = "<group>"; };
+		B34182851CD797CC00F35BFA /* TestsiOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestsiOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34182871CD797CC00F35BFA /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		B34182891CD797CC00F35BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B34182951CD7982C00F35BFA /* ReactiveCoreCityOSOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveCoreCityOSOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34182A11CD7990300F35BFA /* Tests OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B34182641CD7925400F35BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34182801CD7946D00F35BFA /* CoreCityOS.framework in Frameworks */,
+				B341827D1CD7943700F35BFA /* ReactiveCocoa.framework in Frameworks */,
+				B341827E1CD7943700F35BFA /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34182821CD797CC00F35BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B341828A1CD797CC00F35BFA /* ReactiveCoreCityOSiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34182911CD7982C00F35BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B341829E1CD7990300F35BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34182A61CD7990300F35BFA /* ReactiveCoreCityOSOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B341825E1CD7925400F35BFA = {
+			isa = PBXGroup;
+			children = (
+				B34182861CD797CC00F35BFA /* Tests */,
+				B34182781CD7935300F35BFA /* Frameworks */,
+				B34182731CD792A500F35BFA /* Sources */,
+				B34182691CD7925400F35BFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B34182691CD7925400F35BFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B34182681CD7925400F35BFA /* ReactiveCoreCityOSiOS.framework */,
+				B34182851CD797CC00F35BFA /* TestsiOS.xctest */,
+				B34182951CD7982C00F35BFA /* ReactiveCoreCityOSOSX.framework */,
+				B34182A11CD7990300F35BFA /* Tests OSX.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B34182731CD792A500F35BFA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B34182741CD792A500F35BFA /* Info.plist */,
+				B34182751CD792A500F35BFA /* ReactiveCoreCityOS.h */,
+				B34182791CD7941700F35BFA /* LiveDataTypeSignal.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B34182781CD7935300F35BFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B341827F1CD7946D00F35BFA /* CoreCityOS.framework */,
+				B341827B1CD7943700F35BFA /* ReactiveCocoa.framework */,
+				B341827C1CD7943700F35BFA /* Result.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B34182861CD797CC00F35BFA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B34182871CD797CC00F35BFA /* Tests.swift */,
+				B34182891CD797CC00F35BFA /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B34182651CD7925400F35BFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34182771CD792A500F35BFA /* ReactiveCoreCityOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34182921CD7982C00F35BFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B34182671CD7925400F35BFA /* ReactiveCoreCityOS iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B34182701CD7925400F35BFA /* Build configuration list for PBXNativeTarget "ReactiveCoreCityOS iOS" */;
+			buildPhases = (
+				B34182631CD7925400F35BFA /* Sources */,
+				B34182641CD7925400F35BFA /* Frameworks */,
+				B34182651CD7925400F35BFA /* Headers */,
+				B34182661CD7925400F35BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReactiveCoreCityOS iOS";
+			productName = ReactiveCoreCityOS;
+			productReference = B34182681CD7925400F35BFA /* ReactiveCoreCityOSiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B34182841CD797CC00F35BFA /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B341828D1CD797CC00F35BFA /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				B34182811CD797CC00F35BFA /* Sources */,
+				B34182821CD797CC00F35BFA /* Frameworks */,
+				B34182831CD797CC00F35BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B341828C1CD797CC00F35BFA /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = Tests;
+			productReference = B34182851CD797CC00F35BFA /* TestsiOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B34182941CD7982C00F35BFA /* ReactiveCoreCityOS OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B341829A1CD7982C00F35BFA /* Build configuration list for PBXNativeTarget "ReactiveCoreCityOS OSX" */;
+			buildPhases = (
+				B34182901CD7982C00F35BFA /* Sources */,
+				B34182911CD7982C00F35BFA /* Frameworks */,
+				B34182921CD7982C00F35BFA /* Headers */,
+				B34182931CD7982C00F35BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReactiveCoreCityOS OSX";
+			productName = ReactiveCoreCityOS;
+			productReference = B34182951CD7982C00F35BFA /* ReactiveCoreCityOSOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B34182A01CD7990300F35BFA /* Tests OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B34182AB1CD7990300F35BFA /* Build configuration list for PBXNativeTarget "Tests OSX" */;
+			buildPhases = (
+				B341829D1CD7990300F35BFA /* Sources */,
+				B341829E1CD7990300F35BFA /* Frameworks */,
+				B341829F1CD7990300F35BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B34182A81CD7990300F35BFA /* PBXTargetDependency */,
+			);
+			name = "Tests OSX";
+			productName = "Tests OSX";
+			productReference = B34182A11CD7990300F35BFA /* Tests OSX.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B341825F1CD7925400F35BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CityOS;
+				TargetAttributes = {
+					B34182671CD7925400F35BFA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B34182841CD797CC00F35BFA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B34182941CD7982C00F35BFA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B34182A01CD7990300F35BFA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B34182621CD7925400F35BFA /* Build configuration list for PBXProject "ReactiveCoreCityOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B341825E1CD7925400F35BFA;
+			productRefGroup = B34182691CD7925400F35BFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B34182671CD7925400F35BFA /* ReactiveCoreCityOS iOS */,
+				B34182941CD7982C00F35BFA /* ReactiveCoreCityOS OSX */,
+				B34182841CD797CC00F35BFA /* Tests iOS */,
+				B34182A01CD7990300F35BFA /* Tests OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B34182661CD7925400F35BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34182831CD797CC00F35BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34182931CD7982C00F35BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B341829F1CD7990300F35BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B34182631CD7925400F35BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B341827A1CD7941700F35BFA /* LiveDataTypeSignal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34182811CD797CC00F35BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34182881CD797CC00F35BFA /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34182901CD7982C00F35BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34182AC1CD7991700F35BFA /* LiveDataTypeSignal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B341829D1CD7990300F35BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B341828C1CD797CC00F35BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B34182671CD7925400F35BFA /* ReactiveCoreCityOS iOS */;
+			targetProxy = B341828B1CD797CC00F35BFA /* PBXContainerItemProxy */;
+		};
+		B34182A81CD7990300F35BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B34182941CD7982C00F35BFA /* ReactiveCoreCityOS OSX */;
+			targetProxy = B34182A71CD7990300F35BFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B341826E1CD7925400F35BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B341826F1CD7925400F35BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B34182711CD7925400F35BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/iOS",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cityos.ReactiveCoreCityOS;
+				PRODUCT_NAME = ReactiveCoreCityOSiOS;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B34182721CD7925400F35BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/iOS",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cityos.ReactiveCoreCityOS;
+				PRODUCT_NAME = ReactiveCoreCityOSiOS;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B341828E1CD797CC00F35BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cityos.Tests;
+				PRODUCT_NAME = TestsiOS;
+			};
+			name = Debug;
+		};
+		B341828F1CD797CC00F35BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.cityos.Tests;
+				PRODUCT_NAME = TestsiOS;
+			};
+			name = Release;
+		};
+		B341829B1CD7982C00F35BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = io.cityos.ReactiveCoreCityOS;
+				PRODUCT_NAME = ReactiveCoreCityOSOSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B341829C1CD7982C00F35BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = io.cityos.ReactiveCoreCityOS;
+				PRODUCT_NAME = ReactiveCoreCityOSOSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B34182A91CD7990300F35BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.cityos.Tests-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B34182AA1CD7990300F35BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.cityos.Tests-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B34182621CD7925400F35BFA /* Build configuration list for PBXProject "ReactiveCoreCityOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B341826E1CD7925400F35BFA /* Debug */,
+				B341826F1CD7925400F35BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B34182701CD7925400F35BFA /* Build configuration list for PBXNativeTarget "ReactiveCoreCityOS iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34182711CD7925400F35BFA /* Debug */,
+				B34182721CD7925400F35BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B341828D1CD797CC00F35BFA /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B341828E1CD797CC00F35BFA /* Debug */,
+				B341828F1CD797CC00F35BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B341829A1CD7982C00F35BFA /* Build configuration list for PBXNativeTarget "ReactiveCoreCityOS OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B341829B1CD7982C00F35BFA /* Debug */,
+				B341829C1CD7982C00F35BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B34182AB1CD7990300F35BFA /* Build configuration list for PBXNativeTarget "Tests OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34182A91CD7990300F35BFA /* Debug */,
+				B34182AA1CD7990300F35BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B341825F1CD7925400F35BFA /* Project object */;
+}
